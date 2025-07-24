@@ -1,13 +1,16 @@
 services:
   - type: web
     name: smailai-backend
-    env: java
-    buildCommand: "./mvnw clean package -DskipTests"
-    startCommand: "java -jar target/SMailAi-0.0.1-SNAPSHOT.jar"
+    env: docker
+    plan: free
     envVars:
       - key: MAIL_USERNAME
         value: pdhileepkumar003@gmail.com
       - key: MAIL_PASSWORD
+        value: scod jcyo xrjb bxgc
+      - key: ADMIN_USER
+        value: admin
+      - key: ADMIN_PASS
         value: scod jcyo xrjb bxgc
       - key: DB_USER
         value: postgres
