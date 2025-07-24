@@ -7,9 +7,9 @@ services:
       - "8080:8080"
     environment:
       - ADMIN_USER=admin
-      - ADMIN_PASS=scod jcyo xrjb bxgc
+      - ADMIN_PASS=scodjcyoxrjbbxgc
       - MAIL_USERNAME=pdhileepkumar003@gmail.com
-      - MAIL_PASSWORD=scod jcyo xrjb bxgc
+      - MAIL_PASSWORD=scodjcyoxrjbbxgc
       - DB_USER=postgres
       - DB_PASS=DatabasePwd
     depends_on:
